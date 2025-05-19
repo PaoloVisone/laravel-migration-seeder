@@ -1,0 +1,66 @@
+/* Font Share Tech Mono */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+/* Colori principali */
+:root {
+    --green: #008878;
+    --grey: #e6e7e8;
+}
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+    background: var(--grey);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: var(--green);
+    padding: 24px 0;
+    text-align: center;
+}
+
+nav h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+    padding: 32px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+th,
+td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--grey);
+    text-align: left;
+}
+
+th {
+    background: var(--green);
+    color: #fff;
+    font-weight: 600;
+}
+
+tr:hover {
+    background: #f9fafb;
+}
+
+td {
+    font-size: 1rem;
+}
